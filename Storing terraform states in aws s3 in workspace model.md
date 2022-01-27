@@ -6,7 +6,9 @@ https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html
 ### Different aws accounts are created for dev, uat and prod environments
 Switch aws cli profiles   
-AWS CLI v1  -->  export AWS_DEFAULT_PROFILE=user2   
-AWS CLI v2  -->  export AWS_PROFILE=user2   
+(Linux)AWS CLI v1  -->  export AWS_DEFAULT_PROFILE=user2   
+(Linux)AWS CLI v2  -->  export AWS_PROFILE=user2   
+(Windows)AWS CLI v1  -->  set AWS_DEFAULT_PROFILE=user2   
+(Windows)AWS CLI v2  -->  set AWS_PROFILE=user2   
 ## Create TF files for backend with workspace.
 https://blog.knoldus.com/workspaces-in-terraform/
