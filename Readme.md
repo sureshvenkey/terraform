@@ -1,5 +1,11 @@
 # Storing terraform states in aws s3 in workspace model
-
+## Install Ubuntu in windows 10
+1. Open the Start menu and search for "Turn Windows features on or off".  
+`$ sudo apt-get update  
+$ sudo apt-get install software-properties-common  
+$ sudo apt-add-repository ppa:ansible/ansible    
+$ sudo apt-get update  
+$ sudo apt-get install ansible -y`
 ## Install the aws cli in windows10 
 https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 ## Configure aws profile for dev, uat and prod aws accounts
