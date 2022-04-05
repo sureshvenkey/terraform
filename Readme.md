@@ -7,6 +7,8 @@ $ sudo apt-add-repository ppa:ansible/ansible
 $ sudo apt-get update  
 $ sudo apt-get install ansible -y  
 ```
+2. Scroll down through the list of features until you see Windows Subsystem for Linux. Click on the checkbox, and then click OK to enable the feature.  
+3. Open the Microsoft Store. Search for Ubuntu and click on Get to install the latest version.  
 ## Install the aws cli in windows10 
 https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 ## Configure aws profile for dev, uat and prod aws accounts
