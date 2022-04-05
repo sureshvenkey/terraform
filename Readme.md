@@ -5,7 +5,8 @@
 $ sudo apt-get install software-properties-common  
 $ sudo apt-add-repository ppa:ansible/ansible    
 $ sudo apt-get update  
-$ sudo apt-get install ansible -y```
+$ sudo apt-get install ansible -y  
+```
 ## Install the aws cli in windows10 
 https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 ## Configure aws profile for dev, uat and prod aws accounts
