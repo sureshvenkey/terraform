@@ -38,3 +38,5 @@ ansible all -i 93.184.216.119,
 ansible-playbook -i example.com, playbook.yml   # Requires 'hosts: all' in the playbook  
 ansible-playbook -u ec2-user -i 93.184.216.119, --private-key aws.pem ansible_excel.yaml  
 ```
+## How to use Ansible with Terraform  
+https://alex.dzyoba.com/blog/terraform-ansible/  
