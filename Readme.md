@@ -29,9 +29,7 @@ Switch aws cli profiles
 ## Create TF files for backend with workspace.
 https://blog.knoldus.com/workspaces-in-terraform/
 
-## How to run Ansible without specifying the inventory but the host directly?  
-## Run a playbook or command with arbitrary host not in the inventory hosts list?  
-## Run ansible with arbitrary host/ip without inventory?  
+## How to run Ansible without specifying the inventory but the host directly using ansible-palybook flags?  
 Surprisingly, the trick is to append a ,
 The host parameter preceding the , can be either a hostname or an IPv4/v6 address.
 ```
