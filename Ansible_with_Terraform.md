@@ -1,3 +1,10 @@
+## How to run Ansible without specifying the inventory but the host directly using ansible-palybook flags?  
+Surprisingly, the trick is to append a ,
+The host parameter preceding the , can be either a hostname or an IPv4/v6 address.
+```
+ansible-playbook -i example.com, playbook.yml   # Requires 'hosts: all' in the playbook  
+ansible-playbook -u ec2-user -i 93.184.216.119, --private-key aws.pem ansible_excel.yaml  
+```
 
 Sample ansible code to create user
 
