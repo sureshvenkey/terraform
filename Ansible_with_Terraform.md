@@ -1,3 +1,5 @@
+## If you are geting error
+export ANSIBLE_TIMEOUT=120;
 ## How to run Ansible without specifying the inventory but the host directly using ansible-palybook flags?  
 Surprisingly, the trick is to append a ,
 The host parameter preceding the , can be either a hostname or an IPv4/v6 address.
