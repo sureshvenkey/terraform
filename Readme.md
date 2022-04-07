@@ -29,5 +29,4 @@ Switch aws cli profiles
 ## Create TF files for backend with workspace.
 https://blog.knoldus.com/workspaces-in-terraform/
 
-
-                                                                                                                                [Next Page: Ansible_with_Terraform ](https://github.com/sureshvenkey/terraform/blob/main/Ansible_with_Terraform.md "Google's Homepage")
+[Next Page: Ansible_with_Terraform ](https://github.com/sureshvenkey/terraform/blob/main/Ansible_with_Terraform.md "Google's Homepage")
