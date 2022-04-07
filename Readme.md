@@ -31,4 +31,4 @@ https://blog.knoldus.com/workspaces-in-terraform/
 
 ## How to use Ansible with Terraform  
 https://alex.dzyoba.com/blog/terraform-ansible/  
-                                                                                                                                 [Next Page: Ansible_with_Terraform ](https://github.com/sureshvenkey/terraform/blob/main/Ansible_with_Terraform.md "Google's Homepage")
+                                                                                                                                [Next Page: Ansible_with_Terraform ](https://github.com/sureshvenkey/terraform/blob/main/Ansible_with_Terraform.md "Google's Homepage")
