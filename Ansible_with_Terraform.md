@@ -13,13 +13,13 @@ provisioner "remote-exec" {
 
     connection {
       type        = "ssh"
-      user        = "fedora"
+      user        = "ec2-user"
       private_key = "${file(var.ssh_key_private)}"
     }
   }
 
   provisioner "local-exec" {
-    command = "ansible-playbook -u fedora -i '${self.public_ip},' --private-key ${var.ssh_key_private} provision.yml" 
+    command = "ansible-playbook -u ec2-user -i '${self.public_ip},' --private-key ${var.ssh_key_private} provision.yml" 
   }
   ```
   
