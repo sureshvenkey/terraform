@@ -33,6 +33,7 @@ fatal: [3.85.7.229]: UNREACHABLE! => {"changed": false, "msg": "Failed to connec
 ```
 To avoid this you can use the local-exec provider along with the remot-exec provider as mentioned below
 
+
 ```
 provisioner "remote-exec" {
     inline = ["sudo dnf -y install python"]
@@ -49,3 +50,5 @@ provisioner "remote-exec" {
   }
   ```
   
+### How to use Ansible with Terraform  
+https://alex.dzyoba.com/blog/terraform-ansible/  
