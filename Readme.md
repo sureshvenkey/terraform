@@ -1,7 +1,7 @@
 # Terraform getting Started
 To learn terraform, all uou need is to get your hands dirty. Here are the steps needed for installing terrafrom in your windows 10 laptop.  
 ### Install Ubuntu in windows 10
-You can install terraform directlly in windows 10 by downloading the supported package from terraform site but if you are planning to call the ansible code along with terraform, we suggest to install Ubuntu os as a sub-system service in windows 10. Then install terraform and ansible in Ubuntu os, Here are the steps for installing Ubuntu.     
+You can install terraform directlly in windows 10 by downloading the supported package from terraform site but if you are planning to call the ansible code along with terraform, we suggest to install Ubuntu os as a sub-system service in windows 10. Then install terraform and ansible in Ubuntu os, Here are the steps for installing Ubuntu in windows 10.     
 1. Open the Start menu and search for "Turn Windows features on or off".  
 2. Scroll down through the list of features until you see Windows Subsystem for Linux. Click on the checkbox, and then click OK to enable the feature.  
 3. Open the Microsoft Store. Search for Ubuntu and click on Get to install the latest version.  
