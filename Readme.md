@@ -1,5 +1,5 @@
 # Terraform getting Started
-To learn terraform, you need to get your hands dirty all you need is to install terrafrom in your laptop to get started.  
+To learn terraform, you need to get your hands dirty here are the steps needed for installing terrafrom in your laptop.  
 ### Install Ubuntu in windows 10
 1. Open the Start menu and search for "Turn Windows features on or off".  
 2. Scroll down through the list of features until you see Windows Subsystem for Linux. Click on the checkbox, and then click OK to enable the feature.  
