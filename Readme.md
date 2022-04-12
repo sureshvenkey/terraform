@@ -35,6 +35,16 @@ $ aws --version
 ```
 https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 ## Configure aws profile for dev, uat and prod aws accounts
+The below command configures the aws default profile
+```
+$ aws configure
+AWS Access Key ID [None]: AAAAAAAAAAAAAAAAAAAAAAAAAA
+AWS Secret Access Key [None]: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBY
+Default region name [None]: us-west-2
+Default output format [None]: json
+```
+
+
 https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html
 ### Different aws accounts are created for dev, uat and prod environments
 Switch aws cli profiles   
