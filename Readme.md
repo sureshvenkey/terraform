@@ -1,4 +1,4 @@
-# Storing terraform states in aws s3 in workspace model
+# Terraform getting Started
 ### Install Ubuntu in windows 10
 1. Open the Start menu and search for "Turn Windows features on or off".  
 2. Scroll down through the list of features until you see Windows Subsystem for Linux. Click on the checkbox, and then click OK to enable the feature.  
