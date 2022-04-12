@@ -6,6 +6,12 @@ To learn terraform, all uou need is to get your hands dirty. Here are the steps 
 3. Open the Microsoft Store. Search for Ubuntu and click on Get to install the latest version.  
 4. Once the installation is complete, click on Launch to start up the Ubuntu command terminal. 
 
+### Terraform installation in windows 10 Ubuntu
+```
+$ curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -  
+$ sudo apt-add-repository "deb [arch=$(dpkg --print-architecture)] https://apt.releases.hashicorp.com $(lsb_release -cs) main"  
+$ sudo apt install terraform  
+```
 Install ansible if you wish to run ansible code using terraform providers.  
 ### Ansible installation in windows 10 Ubuntu
 ```$ sudo apt-get update  
@@ -14,12 +20,7 @@ $ sudo apt-add-repository ppa:ansible/ansible
 $ sudo apt-get update  
 $ sudo apt-get install ansible -y  
 ```
-### Terraform installation in windows 10 Ubuntu
-```
-$ curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -  
-$ sudo apt-add-repository "deb [arch=$(dpkg --print-architecture)] https://apt.releases.hashicorp.com $(lsb_release -cs) main"  
-$ sudo apt install terraform  
-```
+
 ### Install the aws cli in windows10 
 https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 ## Configure aws profile for dev, uat and prod aws accounts
