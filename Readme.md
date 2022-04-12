@@ -5,6 +5,8 @@ To learn terraform, all uou need is to get your hands dirty. Here are the steps 
 2. Scroll down through the list of features until you see Windows Subsystem for Linux. Click on the checkbox, and then click OK to enable the feature.  
 3. Open the Microsoft Store. Search for Ubuntu and click on Get to install the latest version.  
 4. Once the installation is complete, click on Launch to start up the Ubuntu command terminal. 
+
+Install ansible if you wish to run ansible code using terraform providers.  
 ### Ansible installation in windows 10 Ubuntu
 ```$ sudo apt-get update  
 $ sudo apt-get install software-properties-common  
