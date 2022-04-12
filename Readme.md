@@ -14,9 +14,9 @@ $ sudo apt-get install ansible -y
 ```
 ### Terraform installation in windows 10 Ubuntu
 ```
-curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -  
-sudo apt-add-repository "deb [arch=$(dpkg --print-architecture)] https://apt.releases.hashicorp.com $(lsb_release -cs) main"  
-sudo apt install terraform  
+$ curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -  
+$ sudo apt-add-repository "deb [arch=$(dpkg --print-architecture)] https://apt.releases.hashicorp.com $(lsb_release -cs) main"  
+$ sudo apt install terraform  
 ```
 ### Install the aws cli in windows10 
 https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
