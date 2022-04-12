@@ -22,7 +22,17 @@ $ sudo apt-get update
 $ sudo apt-get install ansible -y  
 ```
 
-### Install the aws cli in windows10 
+### Install the aws cli in windows10 Ubuntu
+```
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install -i /usr/local/aws-cli -b /usr/local/bin
+-i – This option specifies the directory to copy all of the files to (Default value is /usr/local/aws-cli).
+-b – This option specifies that the main aws program in the install directory is symbolically linked to the file aws in the specified path (The default value is /usr/local/bin). 
+
+
+The default value is /usr/local/aws-cli.
+```
 https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 ## Configure aws profile for dev, uat and prod aws accounts
 https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html
