@@ -43,7 +43,9 @@ AWS Secret Access Key [None]: BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBY
 Default region name [None]: us-west-2
 Default output format [None]: json
 ```
-
+$ aws configure --profile dev
+$ aws configure --profile uat
+$ aws configure --profile prod
 
 https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html
 ### Different aws accounts are created for dev, uat and prod environments
